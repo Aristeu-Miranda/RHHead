@@ -8,7 +8,7 @@ export default function Cadastro(){
             <div id="corpo-cadas">
             <div id="container_daddy">
                 <div id="titulo-cadas">
-                    <h3>Cadastro</h3>
+                    <h3>CADASTRO</h3>
                 </div>
 
                 <form>

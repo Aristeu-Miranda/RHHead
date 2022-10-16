@@ -12,7 +12,7 @@ export default function Cabecalho(){
                     <li><Link id="links" to="/login">Login</Link></li>
                     <li><Link id="links" to="/cadastro">Cadastro</Link></li>
                     <li><Link id="links" to="/vagas">Vagas</Link></li>
-                    <li><Link id="links" to="/empresas">Empresas</Link></li>
+                    <li><Link id="links" to="/empresas">Parceiros</Link></li>
                 </ul>
         </Header>
     )

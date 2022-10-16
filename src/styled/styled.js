@@ -258,3 +258,65 @@ export const DivVagas = styled.div`
 }
 
 `
+
+export const DivEmpresa = styled.div`
+#titulo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  margin: 50px 0px 50px 0px;
+  text-align:center;
+  color: gray;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#empresa {
+  width: 300px;
+  height: 230px;
+  padding: 10px 10px 10px 10px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+#empresa img {
+  width: 100%;
+  border-radius: 10px;
+}
+#contato {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin: 50px 0px 50px 0px;
+  text-align:center;
+  color: gray;
+}
+legend{
+  text-align:center;
+  color: gray;
+}
+input{
+  width:20%;
+  height:35px;
+  border: none;
+  background:#eaeaea;
+  padding:0 15px;
+  border-radius: 5px 0px 0px 5px;
+}
+input[type="submit"]
+{
+  background: mediumseagreen;
+  width:100px;
+  border:none;
+  color: white;
+  cursor:pointer;
+  border-radius: 0px 5px 5px 0px;
+  font-size:14px;
+
+}
+
+input[type="submit"]:hover
+{
+  background:#27ae60
+}
+
+`

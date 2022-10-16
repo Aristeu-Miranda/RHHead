@@ -1,28 +1,27 @@
 import React from "react";
-import './login.css'
+import { Form } from '../../styled/styled'
 
 export default function Login(){
     return(
-        <div id="corpo-login">
-            <div id='formulario'>
-                <div>
-                    <h3 id="titulo-login">Login</h3>
-                </div>
-
-                <form>
+        <Form>
+            <div id="corpo_login">
+                <form id="formulario" action="#" method="post">
+                    <div>
+                        <legend><h2>LOGIN</h2></legend>
+                    </div>
                     <fieldset>
-                        <div class="campo-login">
-                            <label htmlFor="email"><strong>Email</strong></label>
-                            <input class="input-login" type="email" name="email" id="email"/>
+                        <div class="input-group">
+                            <span><i class="fa fa-envelope-o"></i></span>
+                            <input  id="email" placeholder="Email" autocomplete="off" type="email" tabindex="1" autofocus required />
                         </div>
-                        <div class="campo-login">
-                            <label htmlFor="password"><strong>Senha</strong></label>
-                            <input class="input-login" type="password" name="password" id="password"/>
+                        <div class="input-group">
+                            <span><i class="fa fa-key"></i></span>
+                            <input placeholder="Senha" type="password" enable />
                         </div>
-                        <button id="botao-login" type="submit" className="button">Entrar</button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
+                        <input type="submit" value="Enviar" />
+                </fieldset>
+            </form>
+            </div>    
+        </Form>
     )
 }

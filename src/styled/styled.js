@@ -76,3 +76,77 @@ export const Main = styled.main`
         color: #FF0000;
     }
 `;
+
+export const Form = styled.form`
+#corpo_login{
+    background-color: #f0f8ff;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70%;
+}
+#formulario{
+  margin: auto;
+  width: 350px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+legend{
+  text-align:center;
+  color: gray;
+}
+input{
+  width:87%;
+  height:35px;
+  border: none;
+  background:#eaeaea;
+  padding:0 15px;
+  border-radius: 0 5px  5px 0 ;
+}
+
+span{
+  display:table-cell;
+  color: white;
+}
+
+.input-group{
+  display:table;
+  width:100%;
+  margin:10px 0;
+}
+span{ 
+  display:table-cell;
+  padding:0 2px;
+  background:#cccccc;
+  border-radius:5px 0  0 5px;
+  text-align:center;
+}
+
+input[type="submit"]
+{
+  background: mediumseagreen;
+  width:295px;
+  border:none;
+  color: white;
+  cursor:pointer;
+  border-radius:5px ;
+  font-size:15px;
+
+}
+
+input[type="submit"]:hover
+{
+  background:#27ae60
+}
+
+fieldset
+{
+  width:300px;
+  margin:auto;
+  border:none;
+}
+`

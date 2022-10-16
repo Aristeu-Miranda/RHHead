@@ -5,10 +5,10 @@ import Rodape from './components/rodape/Rodape';
 
 import Vagas from './components/vagas/Vagas'
 import Empresas from './components/empresas/Empresas'
-import Entrevistas from './components/entrevistas/Entrevistas'
 import Login from './components/login/Login'
 import Cadastro from './components/cadastro/Cadastro'
 import Sobre from './components/sobre/Sobre'
+import CriarConta from './components/criarcontaempresa/CriarConta'
 
 export default function App(){
     return(
@@ -19,10 +19,10 @@ export default function App(){
                     <Route path="/" element={<Home/>}/>
                     <Route path="/vagas" element={<Vagas/>}/>
                     <Route path="/empresas" element={<Empresas/>}/>
-                    <Route path="/entrevistas" element={<Entrevistas/>}/>
                     <Route path="/login" element={<Login/>}/>
                     <Route path="/cadastro" element={<Cadastro/>}/>
                     <Route path="/sobre" element={<Sobre/>}/>
+                    <Route path="/criar" element={<CriarConta/>}/>
                 </Routes>
                 <Rodape/>
             </BrowserRouter>

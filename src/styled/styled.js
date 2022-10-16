@@ -325,7 +325,7 @@ export const Footer = styled.footer`
 #corpo{
     line-height: 1.5; 
     font-family: "Poppins", sans-serif;
-    margin-left: 15%;
+    margin-left: 35%;
     padding: 0;
 }
 

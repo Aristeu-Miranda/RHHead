@@ -1,0 +1,37 @@
+#container-entre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65vh;
+}
+
+#form-entre
+{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+}
+
+#form-entre #entrevista{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+#form-entre #sub{
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    width: 100px;
+    background-color: rgb(214, 214, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

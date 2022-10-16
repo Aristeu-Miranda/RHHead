@@ -1,13 +1,16 @@
 import React from "react";
-import './Home.css'
+import { Main } from "../../styled/styled"
+
 
 export default function Home(){
     //
     return(
-        <main id="main">
-            <div id="box">
-                <h1 id="slogan">A melhor vaga para <br/>você aqui</h1>
+        <Main>
+            <div id="main">
+                <div id="box">
+                    <h1 id="slogan">A melhor vaga para <br/>você aqui</h1>
+                </div>
             </div>
-        </main>
+        </Main>
     )
 }

@@ -50,3 +50,32 @@ export const Header = styled.header`
         border: solid 1px #000;
     }
 `;
+
+export const Main = styled.main`
+    #main {
+        background-image: url(backbody.JPG);
+        background-size: cover;
+        background-position: center;
+        max-width: 1680px;
+        min-width: 320px; 
+        height: 60vh;
+        padding-top: 20%;
+    }
+    #box{
+        margin-right: 30%;
+        margin-left: 30%;
+        min-width: 230px;
+        max-width: 1920px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: #0500FF;
+        box-shadow: 10px 10px #02007d;
+        border-radius: 30px;
+        height: 90px;
+    }   
+    #slogan{
+        margin: auto;
+        color: #ffffff;
+        text-align: center;
+    }
+`;

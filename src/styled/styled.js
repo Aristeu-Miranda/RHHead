@@ -86,7 +86,6 @@ export const Form = styled.form`
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 70%;
 }
 #formulario{
   margin: auto;
@@ -149,4 +148,113 @@ fieldset
   margin:auto;
   border:none;
 }
+`;
+
+export const DivCadastro = styled.div`
+#titulo-cadas{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+    text-align:center;
+    color: gray;
+}
+fieldset{
+    border: 0;
+}
+#corpo-cadas{
+    background-color: #f0f8ff;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.input-cadas{
+    border-radius: 5px;
+    display: block;
+    border: solid 2px black;
+    box-shadow: 1px 1px black;
+    width: 100%;
+    height: 30px;
+    padding-left: 30px;
+    
+}
+.campo{
+    margin: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+#container_daddy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+}
+
+#botao{
+  background: mediumseagreen;
+  width:295px;
+  border:none;
+  color: white;
+  cursor:pointer;
+  border-radius:5px ;
+  font-size:15px;
+  height: 40px;
+}
+
+#botao:hover {
+  background:#27ae60;
+}
+
+form{
+    width: 500px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+`
+
+export const DivVagas = styled.div`
+#vagas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 10px 10px 10px;
+}
+
+#tituloVagas {
+  font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 50px 0px 50px 0px;
+    text-align:center;
+    color: gray;
+}
+#exeVaga{
+    margin-bottom: 30px;
+    width: 353px;
+    height: 350px;
+    background: #EEEEEE;
+    border-radius: 10px;
+}
+.txt{
+    padding-left: 20px;
+}
+.lista-vagas{
+    padding-left: 15px;
+    list-style: none;
+}
+.img{
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 92%;
+    height: 181px;
+}
+
 `

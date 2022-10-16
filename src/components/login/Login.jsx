@@ -20,7 +20,7 @@ export default function Login(){
                         </div>
                         <input type="submit" value="Enviar" />
                 </fieldset>
-            </form>
+                </form>
             </div>    
         </Form>
     )

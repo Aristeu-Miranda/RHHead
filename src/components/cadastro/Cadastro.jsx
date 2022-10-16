@@ -1,12 +1,13 @@
 import React from "react";
-import './cadastro.css'
+import { DivCadastro } from '../../styled/styled'
 
 export default function Cadastro(){
 
     return(
-        <div id="corpo-cadas">
+        <DivCadastro>
+            <div id="corpo-cadas">
             <div id="container_daddy">
-                <div>
+                <div id="titulo-cadas">
                     <h3>Cadastro</h3>
                 </div>
 
@@ -21,12 +22,12 @@ export default function Cadastro(){
                             <input class="input-cadas" type="text" name="sobrenome" id="sobrenome" required/>
                         </div>
                         <div class="campo">
-                            <label htmlFor="cpf"><strong>Cpf</strong></label>
+                            <label htmlFor="cpf"><strong>CPF</strong></label>
                             <input class="input-cadas" type="text" name="cpf" id="cpf" required/>
                         </div>
 
                         <div class="campo">
-                            <label htmlFor="rg"><strong>Rg</strong></label>
+                            <label htmlFor="rg"><strong>RG</strong></label>
                             <input class="input-cadas" type="text" name="rg" id="rg" required/>
                         </div>
                         <div class="campo">
@@ -38,7 +39,7 @@ export default function Cadastro(){
                             <input class="input-cadas" type="text" name="endereco" id="endereco" required/>
                         </div>
                         <div class="campo">
-                            <label htmlFor="email"><strong>Email</strong></label>
+                            <label htmlFor="email"><strong>E-mail</strong></label>
                             <input class="input-cadas" type="email" name="email" id="email"/>
                         </div>
                         <div class="campo">
@@ -50,5 +51,7 @@ export default function Cadastro(){
                 </form>
             </div>
         </div>
+        </DivCadastro>
+        
     )
 }

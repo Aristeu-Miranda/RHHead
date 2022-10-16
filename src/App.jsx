@@ -8,6 +8,7 @@ import Empresas from './components/empresas/Empresas'
 import Entrevistas from './components/entrevistas/Entrevistas'
 import Login from './components/login/Login'
 import Cadastro from './components/cadastro/Cadastro'
+import Sobre from './components/sobre/Sobre'
 
 export default function App(){
     return(
@@ -21,6 +22,7 @@ export default function App(){
                     <Route path="/entrevistas" element={<Entrevistas/>}/>
                     <Route path="/login" element={<Login/>}/>
                     <Route path="/cadastro" element={<Cadastro/>}/>
+                    <Route path="/sobre" element={<Sobre/>}/>
                 </Routes>
                 <Rodape/>
             </BrowserRouter>

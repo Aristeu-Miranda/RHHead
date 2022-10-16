@@ -1,16 +1,18 @@
 import React from "react";
-import './Rodape.css'
+import { Footer } from "../../styled/styled";
+import { Link } from "react-router-dom";
 
 export default function Rodape(){
     return(
-        <div id="corpo">
+        <Footer>
+            <div id="corpo">
             <footer>
                 <div class="container">
                     <div class="row">
                         <div class="footer-col">
                             <h4>RHHead</h4>
                             <ul class="ul-rodape">
-                                <li><a href="#">Sobre/Empresa</a></li>
+                                <li><Link id="links" to="/sobre">Sobre Nós</Link></li>
                                 <li><a href="#">Fale conosco</a></li>
                             </ul>
                         </div>
@@ -33,5 +35,7 @@ export default function Rodape(){
                 </div>
             </footer>
         </div>
+        </Footer>
+        
     )
 }
